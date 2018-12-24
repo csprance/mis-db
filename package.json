@@ -1,0 +1,24 @@
+{
+  "name": "mis-db",
+  "version": "1.0.0",
+  "description": "Node module to manipulate Miscreated self hosted servers",
+  "main": "src/index.ts",
+  "repository": "https://github.com/csprance/mis-db.git",
+  "author": "Chris Sprance",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "sqlite3": "^4.0.4",
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typeorm": "^0.2.9",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5"
+  }
+}
